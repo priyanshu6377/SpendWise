@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Filter, Edit2, Trash2, ChevronDown, X } from 'lucide-react';
+import { Search, Filter, Edit2, Trash2, X } from 'lucide-react';
 import { useApp, CATEGORIES } from '../context/AppContext';
 import { format, parseISO } from 'date-fns';
 

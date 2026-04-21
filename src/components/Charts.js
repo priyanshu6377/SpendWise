@@ -4,7 +4,7 @@ import {
   Tooltip, ResponsiveContainer, Legend, LineChart, Line, CartesianGrid,
 } from 'recharts';
 import { useApp, CATEGORIES } from '../context/AppContext';
-import { format, parseISO, startOfMonth, eachMonthOfInterval, subMonths } from 'date-fns';
+import { format, parseISO, eachMonthOfInterval, subMonths } from 'date-fns';
 
 const CATEGORY_ICONS = {
   food: '🍔', travel: '✈️', shopping: '🛍️',

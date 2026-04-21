@@ -3,7 +3,7 @@ import { LayoutDashboard, List, BarChart3, Settings, Plus, TrendingUp } from 'lu
 import { useApp } from '../context/AppContext';
 
 const MobileNav = () => {
-  const { activeTab, setActiveTab, setShowForm, setEditingExpense, setShowIncomeForm, setEditingIncome } = useApp();
+  const { activeTab, setActiveTab, setShowForm, setEditingExpense } = useApp();
 
   const tabs = [
     { id: 'dashboard', icon: LayoutDashboard },

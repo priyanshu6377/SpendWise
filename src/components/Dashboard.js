@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, TrendingDown, AlertTriangle, Plus, ArrowUpCircle, ArrowDownCircle, Scale } from 'lucide-react';
+import { TrendingUp, AlertTriangle, Plus, ArrowUpCircle, ArrowDownCircle, Scale } from 'lucide-react';
 import { useApp, CATEGORIES, INCOME_CATEGORIES } from '../context/AppContext';
 import { format, parseISO } from 'date-fns';
 import BudgetProgress from './BudgetProgress';

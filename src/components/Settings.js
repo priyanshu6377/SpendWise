@@ -4,7 +4,7 @@ import { useApp, CATEGORIES } from '../context/AppContext';
 import { format, parseISO } from 'date-fns';
 
 const Settings = () => {
-  const { budget, setBudget, darkMode, setDarkMode, expenses, setShowForm, setEditingExpense } = useApp();
+  const { budget, setBudget, darkMode, setDarkMode, expenses } = useApp();
   const [budgetInput, setBudgetInput] = useState(budget.amount || '');
   const [saved, setSaved] = useState(false);
   const [clearConfirm, setClearConfirm] = useState(false);
